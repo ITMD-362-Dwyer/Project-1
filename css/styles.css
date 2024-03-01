@@ -57,8 +57,32 @@ button:hover {
     transition: background-color 0.3s ease;
     }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .container {
-        padding: 40px;
+        padding: 30px;
+    }
+
+    input {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 12px 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+
+    input {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 12px 24px;
     }
 }
