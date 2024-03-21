@@ -59,30 +59,43 @@ button:hover {
 @media screen and (min-width: 768px) {
   .container {
     padding: 30px;
+    background-color: #f8f8f8; 
   }
 
   input {
     padding: 10px;
     margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 6px; 
   }
 
   button {
     padding: 12px 24px;
+    font-size: 18px; 
+  }
+
+  h1 {
+    font-size: 48px; 
   }
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 900px; /
   }
 
   input {
-    padding: 12px;
-    margin-bottom: 24px;
+    padding: 14px;
+    margin-bottom: 26px;
   }
 
   button {
-    padding: 14px 28px;
+    padding: 16px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font-size: 52px; 
   }
 }
