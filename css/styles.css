@@ -82,7 +82,7 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 900px; /
+    max-width: 900px; 
   }
 
   input {
